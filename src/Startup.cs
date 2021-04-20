@@ -1,3 +1,4 @@
+using System.Net.Http;
 using Microsoft.Azure.Functions.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -13,7 +14,8 @@ namespace MyFunctions {
 
             builder.Services.AddHttpClient();
 
-            builder.Services.AddSingleton<IAddressCleaner, MockAddressCleaner>();
+            // builder.Services.AddSingleton<IAddressCleaner, MockAddressCleaner>();
+            builder.Services.AddSingleton<IAddressCleaner, MelissaAddressCleaner>();
 
             // builder.Services.AddSingleton<ILoggerProvider, MyLoggerProvider>();
         }

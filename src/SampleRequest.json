@@ -1,0 +1,26 @@
+{
+    "TransmissionReference": null,
+    "CustomerID": null,
+    "Records": [
+        {
+            "RecordID": "1",
+            "Organization": null,
+            "AddressLine1": "22257 East Peakview Drive, Aurora, Colorado 80016",
+            "AddressLine2": null,
+            "AddressLine3": null,
+            "AddressLine4": null,
+            "AddressLine5": null,
+            "AddressLine6": null,
+            "AddressLine7": null,
+            "AddressLine8": null,
+            "DoubleDependentLocality": null,
+            "DependentLocality": null,
+            "Locality": null,
+            "SubAdministrativeArea": null,
+            "AdministrativeArea": null,
+            "PostalCode": null,
+            "SubNationalArea": null,
+            "Country": null
+        }
+    ]
+}
